@@ -3,26 +3,26 @@ Criando um blog com Python e Django
 Projeto blog
 
 APPS
-    categorias (sem views e urls) [x]
-    posts (com views e urls) [x]
-    comentarios (sem views e urls) [x]
+    [x] categorias (sem views e urls) 
+    [x] posts (com views e urls) 
+    [x] comentarios (sem views e urls) 
     summernotes
 
 settings.py
-    INSTALLED_APPS [x]
-    TEMPLATES dirs [x]
-    DATABASES - MySQL / SQLite / PostgreSQL
-    LANGUAGE_CODE = 'pt-BR'
-    TIME_ZONE = 'America/Sao_Paulo'
-    STATIC_URL = '/static/'
-    STATICFILES_DIRS
-    MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-    MEDIA_URL = '/media/'
-    urlpatterns += static
+    [x]INSTALLED_APPS 
+    [x] TEMPLATES dirs 
+    [x] DATABASES - MySQL / SQLite  / PostgreSQL
+    [x] LANGUAGE_CODE = 'pt-BR'
+    [x] TIME_ZONE = 'America/Sao_Paulo'
+    [x] STATIC_URL = '/static/'
+    [x] STATICFILES_DIRS
+    [x] MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+    [x] MEDIA_URL = '/media/'
+    [x] urlpatterns += static
 
     from django.contrib.messages import constants
 
-    MESSAGE_TAGS = {
+    [x]  MESSAGE_TAGS = {
         constants.ERROR: 'alert-danger',
         constants.WARNING: 'alert-warning',
         constants.DEBUG: 'alert-info',
