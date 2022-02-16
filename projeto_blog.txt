@@ -31,7 +31,7 @@ settings.py
     }
 
 1 - Criar models com as seguintes características:
-    * categoria
+    [x] * categoria
         id - IntegerField
         nome_cat - CharField
 
