@@ -3,14 +3,14 @@ Criando um blog com Python e Django
 Projeto blog
 
 APPS
-    categorias (sem views e urls)
-    posts (com views e urls)
-    comentarios (sem views e urls)
+    categorias (sem views e urls) [x]
+    posts (com views e urls) [x]
+    comentarios (sem views e urls) [x]
     summernotes
 
 settings.py
-    INSTALLED_APPS
-    TEMPLATES dirs
+    INSTALLED_APPS [x]
+    TEMPLATES dirs [x]
     DATABASES - MySQL / SQLite / PostgreSQL
     LANGUAGE_CODE = 'pt-BR'
     TIME_ZONE = 'America/Sao_Paulo'
