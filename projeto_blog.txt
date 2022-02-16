@@ -35,7 +35,7 @@ settings.py
         id - IntegerField
         nome_cat - CharField
 
-    * post
+    [x] * post
         id = IntegerField
         titulo - CharField
         autor - ForeignKey - User
@@ -58,13 +58,13 @@ settings.py
 
     Configurar ADMIN
 
-2 - URLs
+[x] 2 - URLs
     / - index      
     post/<int:pk> - post_detalhes
     busca/ - post_busca
     categoria/<str:categoria> - post_categoria
 
-3 - Views - usaremos class based views:
+[x] 3 - Views - usaremos class based views:
     class PostIndex
     class PostBusca
     class PostCategoria
